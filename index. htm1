@@ -1,0 +1,89 @@
+Penulisan
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIPTA JAYA STAINLESS</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,sans-serif;background:#f4f4f4;color:#222}
+    header{background:#111;color:white;text-align:center;padding:35px 15px}
+    header h1{margin:0;font-size:32px}
+    header p{margin:10px 0 0;color:#ccc}
+    .hero{padding:35px 20px;text-align:center;background:white}
+    .hero h2{font-size:28px;margin:5px 0 12px}
+    .hero p{font-size:17px;line-height:1.6}
+    .btn{display:inline-block;background:#111;color:white;padding:14px 22px;border-radius:8px;text-decoration:none;margin-top:15px}
+    .section{max-width:900px;margin:auto;padding:30px 20px}
+    .section h2{text-align:center}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+    .card{background:white;padding:22px;border-radius:12px;box-shadow:0 2px 10px #ddd}
+    .card h3{margin-top:0}
+    footer{background:#111;color:white;text-align:center;padding:25px 15px;margin-top:20px}
+    .wa{background:#198754}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>CIPTA JAYA STAINLESS</h1>
+  <p>Jasa Stainless Steel & Pengerjaan Berkualitas</p>
+</header>
+
+<section class="hero">
+  <h2>Solusi Stainless Steel untuk Rumah & Usaha</h2>
+  <p>
+    Melayani pembuatan dan pemasangan berbagai kebutuhan stainless
+    dengan pengerjaan rapi dan profesional.
+  </p>
+  <a class="btn wa" href="https://wa.me/628133120957">Hubungi WhatsApp</a>
+</section>
+
+<section class="section">
+  <h2>Layanan Kami</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🛠️ Pagar Stainless</h3>
+      <p>Pembuatan pagar stainless sesuai ukuran dan kebutuhan.</p>
+    </div>
+    <div class="card">
+      <h3>🏠 Kanopi</h3>
+      <p>Pembuatan kanopi dengan desain kuat dan rapi.</p>
+    </div>
+    <div class="card">
+      <h3>🪟 Railing</h3>
+      <p>Railing tangga dan balkon stainless steel.</p>
+    </div>
+    <div class="card">
+      <h3>✨ Custom Stainless</h3>
+      <p>Pengerjaan stainless sesuai desain dan permintaan pelanggan.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Kenapa Memilih Kami?</h2>
+  <div class="card">
+    <p>✓ Pengerjaan rapi</p>
+    <p>✓ Bisa custom sesuai kebutuhan</p>
+    <p>✓ Konsultasi terlebih dahulu</p>
+    <p>✓ Melayani pemasangan</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Hubungi Kami</h2>
+  <div class="card" style="text-align:center">
+    <p><strong>CIPTA JAYA STAINLESS</strong></p>
+    <p>WhatsApp: 0813-3120-957</p>
+    <a class="btn wa" href="https://wa.me/628133120957">Chat Sekarang</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 CIPTA JAYA STAINLESS
+</footer>
+
+</body>
+</html
